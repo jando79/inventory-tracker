@@ -1,3 +1,32 @@
+## Inventory Tracker
+
+#### By David Jandron
+
+A web app that tracks inventory for "Why Not Coffee?" coffee shop.
+
+### Technologies Used
+
+* React
+* JavaScript
+* Node.js
+* webpack
+* HTML
+* CSS
+
+### Description
+
+This application allows the coffee shop staff to track the inventory quantity, varietal, origin, and price. The user can add 130lb bags of coffee to the inventory. They can delete and update the information entered. They can also click a button to sell 1 pound of coffee. For every sale made, the 130lb bag will decrease by 1lb.
+
+### Component Diagram
+
+<img src="ComponentDiagram.jpg">
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
