@@ -1,6 +1,6 @@
 import React from "react";
 import NewCoffeeForm from "./NewCoffeeForm";
-import CoffeeDetail from "./CoffeeDetails";
+import CoffeeDetail from "./CoffeeDetail";
 import CoffeeList from "./CoffeeList";
 import EditCoffeeForm from "./EditCoffeeForm";
 
@@ -36,7 +36,7 @@ class CoffeeControl extends React.Component {
 
   handleAddingNewCoffeeToList = (newCoffee) => {
     const newMainCoffeeList = this.state.mainCoffeeList.concat(newCoffee);
-    this.setState({mainCoffeeList: newMainCoffee, pageView: false})
+    this.setState({mainCoffeeList: newMainCoffeeList, pageView: false})
   }
 
   handleChangingselectedCoffee = (id) => {

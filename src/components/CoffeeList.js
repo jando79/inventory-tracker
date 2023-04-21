@@ -1,5 +1,5 @@
 import React from "react";
-import Wine from "./Coffee";
+import Coffee from "./Coffee";
 import PropTypes from "prop-types";
 
 export default function CoffeeList(props) {
@@ -7,7 +7,7 @@ export default function CoffeeList(props) {
     <React.Fragment>
       <hr />
       {props.coffeeList.map((item) => 
-        <Wine 
+        <Coffee 
         whenCoffeeClicked = {props.onCoffeeSelection}
         coffee={item.coffee}
         origin={item.origin}
