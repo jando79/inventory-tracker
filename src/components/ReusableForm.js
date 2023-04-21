@@ -13,8 +13,23 @@ function ReusableForm(props) {
           type='text'
           name='origin'
           placeholder='Origin' />
-        
-    </form>
-  </React.Fragment>
+        <input
+          type='text'
+          name='roast'
+          placeholder='Roast' />
+        <input
+          type='text'
+          name='price'
+          placeholder='Price' />
+        <button type='submit'>{props.buttonText}</button>
+      </form>
+    </React.Fragment>
   );
 }
+
+ReusableForm.propTypes = {
+  formSubmissionHandler: PropTypes.func,
+  buttonText: PropTypes.string
+};
+
+export default ReusableForm;
